@@ -1,0 +1,174 @@
+/*========== Large Device ============*/
+@media(min-width:992px){
+    #form {
+        padding-top: 0px !important;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    .footer-logo h4 {
+        font-size: 14px;
+    }
+}
+/*========== Medium Device ============*/
+@media(min-width:768px) and (max-width:991.98px){
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+    }
+    .navbar-nav .nav-item {
+        padding-left: 0px;
+        text-align: center;
+        border-top: 1px solid rgba(221, 221, 221, 0.767);
+    }
+    .navbar-nav {
+        margin-top: 15px;
+    }
+    .about-text {
+        padding-bottom: 30px;
+    }
+    .gd-left p {
+        font-size: 16px;
+        font-family: 'Arimo', sans-serif;
+        line-height: 26px;
+        padding-top: 0;
+    }
+    .course-item {
+        margin-bottom: 30px;
+    }
+    .footer-logo h4 {
+        font-size: 14px;
+    }
+}
+/*========== Small Device ============*/
+@media(min-width:576px) and (max-width:767.98px){
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+    }
+    .navbar-nav .nav-item {
+        padding-left: 0px;
+        text-align: center;
+        border-top: 1px solid rgba(221, 221, 221, 0.767);
+    }
+    .navbar-nav {
+        margin-top: 15px;
+    }
+    #about {
+        padding-top: 20px;
+    }
+    .about-text {
+        padding-bottom: 20px;
+    }
+    .about-img {
+        margin-bottom: 40px;
+    }
+    .gd-left h3 {
+        font-size: 21px;
+        font-family: 'Arimo', sans-serif;
+    }
+    .gd-left p {
+        font-size: 14px;
+        line-height: 24px;
+        color: #444;
+    }
+    #courses {
+        padding-top: 30px;
+    }
+}
+/*========== Extra Small Device ============*/
+@media(max-width:575.98px){
+    .news-title p {
+        text-align: center;
+    }
+    .marquee {
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+    }
+    button:focus {
+        outline: none;
+    }
+    .navbar-nav .nav-item {
+        padding-left: 0px;
+        text-align: center;
+        border-top: 1px solid rgba(221, 221, 221, 0.767);
+    }
+    .navbar-nav {
+        margin-top: 15px;
+    }
+    .navbar-brand img {
+        max-height: 35px;
+    }
+    .navbar-toggler {
+        padding: 0;
+    }
+    .about-text h2 {
+        font-size: 22px;
+    }
+    .about-text {
+        padding-bottom: 20px;
+    }
+    .about-img {
+        margin-bottom: 40px;
+    }
+    #about {
+        padding-top: 20px;
+    }
+    #seminar {
+        padding:0;
+    }
+    #seminar .card-header {
+        font-size: 26px;
+    }
+    #courses {
+        padding-top: 20px;
+    }
+    .gd-left h3 {
+        font-size: 22px;
+    }
+    .gd-left p {
+        color: #444;
+    }
+    .course-item {
+        margin-bottom: 30px;
+    }
+    .gal-img {
+        padding-bottom: 15px;
+    }
+    .address {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .address h3 {
+        padding-bottom: 10px;
+    }
+    .address h3::after {
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .social {
+        text-align: center;
+    }
+    .footerbtm p {
+        line-height: 26px;
+        padding: 10px 0;
+    }
+    .back2 {
+        bottom: 9px;
+        right: 10px;
+    }
+    .back2 i {
+        width: 35px;
+        height: 35px;
+        background: #c00;
+        color: #fff;
+        line-height: 32px;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 50%;
+    }
+    .seminar-modal .table td {
+        font-size: 14px;
+    }
+}

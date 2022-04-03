@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol {
+    list-style-type: none;
+}
+a:hover {
+    text-decoration: none;
+}
+/*============= News Part Goes Here ======================*/
+.seminar-click {
+    background: #ee2e24;
+    color: #fff!important;
+    padding: 10px 30px!important;
+}
+header {
+    background-color: #ee2e24;
+}
+/* .news-title {
+    background-color: #ee2e24;
+    text-align: center;
+} */
+.news-title p {
+    color: #fff;
+    line-height: 40px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    line-height: 40px;
+    margin-bottom: 0;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+/*============= Navbar Part Goes Here ======================*/
+
+.navbar {
+    box-shadow: 0px 0px 20px rgba(221, 221, 221, 0.59);
+    position: relative;
+    z-index: 99;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-brand img {
+    max-height: 60px;
+}
+.navbar-nav .nav-item {
+    padding-left: 40px;
+}
+.navbar-nav .nav-item .nav-link {
+    color: #444;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    position: relative;
+    line-height: 50px;
+    padding-right: 0;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #e52c23;
+}
+.navbar-nav .nav-item .nav-link.active {
+    color: #e52c23;
+}
+.fixed-menu {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background: #fff;
+    box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.1);
+    transition: all linear .4s;
+    animation: nav-anime 1s;
+}
+@keyframes nav-anime{
+    0%{top: -50px}
+    100%{top:0}
+  }
+/*============= Banner Part Goes Here ======================*/
+#banner {
+    border-bottom: 1px solid #d1ecf1;
+}
+/*============= About Part Goes Here ======================*/
+#about {
+    padding-top: 50px;
+}
+.about-text h2 {
+    font-family: 'Arimo', sans-serif;
+    color: #5b6b80;
+    font-size: 32px;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 0;
+}
+.about-text p {
+    font-family: 'Arimo', sans-serif;
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 12px;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+.about-img img {
+    margin-top: 5px;
+}
+/*============= Courses Part Goes Here ======================*/
+#courses {
+    padding-top: 50px;
+}
+.courses-head h2 {
+    font-family: 'Arimo', sans-serif;
+    color: #5b6b80;
+    font-size: 32px;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+}
+.courses-head {
+    padding-bottom: 20px;
+}
+.courses-head p {
+    font-family: 'Arimo', sans-serif;
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.course-item {
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-right: none;
+    transition: all linear .3s;
+    margin-bottom: 15px;
+}
+.gd-left {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.gd-left h3{
+    font-size: 24px;
+    font-family: 'Arimo', sans-serif;
+}
+.gd-left p{
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    line-height: 26px;
+    padding-top: 10px;
+}
+.seat {
+    background: #49596d;
+    padding-left: 30px;
+    line-height: 46px;
+    margin-top: 28px;
+    border-radius: 0px 46px 46px 0px;
+    width: 170px;
+    transition: all linear .2s;
+}
+.seat:hover {
+    background-color: #e52c23;
+}
+.seat p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+}
+
+/* .card .btn {
+    background-color: #49596d;
+    border: 0;
+}
+.card-body {
+    padding: 1rem;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none;
+}
+.card-title {
+    font-family: 'Arimo', sans-serif;
+    color: #222;
+    font-size: 24px;
+    font-weight: 400;
+}
+.card-text {
+    font-family: 'Arimo', sans-serif;
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-body .btn{
+    font-family: 'Arimo', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+} */
+/*============= gallery Part Goes Here ======================*/
+.gal-img {
+    padding-bottom: 30px;
+}
+/*============= Contact Part Goes Here ======================*/
+.form-group button {
+    background: #49596d;
+    padding: 10px 40px;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    font-family: 'Arimo', sans-serif;
+    border-radius: 50px;
+}
+.form-group button:hover {
+    background-color: #e52c23;
+}
+.address h3 {
+    color: #4e5e73;
+    font-size: 24px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    position: relative;
+    padding-bottom: 30px;
+}
+.address h3:after {
+    position: absolute;
+    content: '';
+    bottom: 20px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: #ddd;
+}
+.address h5 {
+    color: #444;
+    font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+}
+.social i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    border: 1px solid #b8b8b8;
+    border-radius: 50%;
+    margin: 0 3px;
+    transition: all linear .3s;
+    text-align: center;
+}
+.social i:hover {
+    background: #ee2e24;
+    color: #fff;
+    border-color: #ee2e24;
+}
+footer {
+    background: #f5f5f5;
+    padding: 40px 0 5px 0;
+}
+.address h4 {
+    color: #222;
+    font-size: 22px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+}
+.footerbtm p {
+    line-height: 50px;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.footer-logo h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #2c2c2c;
+    font-size: 16px;
+    padding-top: 25px;
+}
+.footer-logo img {
+    width: 100px;
+}
+/*============= back to top Part Goes Here ======================*/
+.back2 i {
+    width: 40px;
+    height: 40px;
+    background: #c00;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.back2 {
+    position: fixed;
+    bottom: 28px;
+    right: 86px;
+    display: none;
+    z-index: 99999;
+    animation: abc 2s;
+}
+/*============= Course details page Part Goes Here ======================*/
+#breadcumb {
+    background-color: #f5f5f5;
+    padding:  40px 0;
+}
+.breadcumb h2 {
+    color: #444;
+    font-size: 30px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.breadcumb h6 {
+    color: #666;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.breadcumb h6 a {
+    color: #666;
+}
+.head {
+    padding-top: 10px;
+}
+.head h2 {
+    color: #444;
+    font-size: 30px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.apply-item p{
+    position: relative;
+    padding-left: 20px;
+    color: #999;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+}
+.apply-item p:after {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    left: 0;
+    top: 15px;
+    background: #0f2f44;
+}
+.overview-details p {
+    color: #666;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+}
+.apply-item span {
+    color: #666;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+.overview-details .apply-item p {
+    line-height: 40px;
+    color: #0f2f44;
+    margin-bottom: 0;
+}
+/*============= Seminar Part Goes Here ======================*/
+#seminar {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+#seminar .card-header {
+    font-family: 'Arimo', sans-serif;
+    color: #444;
+    font-size: 32px;
+    font-weight: 400;
+    background-color: #dddddda3;
+    border-bottom: none;
+}
+#seminar .card-body a {
+    font-family: 'Arimo', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    border: 0;
+    padding: 10px 40px;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #49596d;
+    transition: all linear .2s;
+}
+#seminar .card-body a:hover {
+    background-color: #e52c23;
+}
+.modal-dialog {
+    max-width: 800px;
+}
+.modal-title {
+    font-family: 'Arimo', sans-serif;
+    color: #444;
+    font-size: 24px;
+    font-weight: 400;
+}
+.seminar-modal .table td {
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    color: #222;
+    font-size: 16px;
+}
+.seminar-modal .table thead th {
+    color: #fff!important;
+    border-right: 1px solid #fff;
+    text-align: center;
+    background: #49596d;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none;
+}
+button:focus {
+    outline: 0;
+    outline: 0;
+}
+.seminar-modal .btn {
+    background: #49596d;
+    color: #fff;
+}
+.modal-content {
+    border: 5px solid rgb(73, 89, 109);
+    border-radius: 0;
+}
+/*============= News Part Goes Here ======================*/
